@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KAGAPP</string>
+
+    <string name="navigate">Navigate</string>
+    <string name="translate">Translate</string>
+    <string name="shop">Shop</string>
 </resources>
