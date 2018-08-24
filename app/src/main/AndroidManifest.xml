@@ -2,11 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.sit.great.kagapp">
 
-<<<<<<< HEAD
     <uses-permission android:name="android.permission.CAMERA"/>
-=======
-    <uses-permission android:name="android.permission.CAMERA" />
->>>>>>> 85d977c08792d6679bdeef7ba86fb83b0933f9ac
 
     <application
         android:allowBackup="true"
@@ -25,15 +21,11 @@
         </activity>
         <activity android:name=".NavigateActivity" />
         <activity android:name=".TranslateActivity" />
-<<<<<<< HEAD
         <activity android:name=".ShopActivity"></activity>
 
         <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES"
             android:value="ocr"/>
-=======
-        <activity android:name=".ShopActivity" />
         <activity android:name=".Navigate2Activity"></activity>
->>>>>>> 85d977c08792d6679bdeef7ba86fb83b0933f9ac
     </application>
 
 </manifest>
