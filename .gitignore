@@ -1,0 +1,6 @@
+
+*.properties
+*.bin
+*.lock
+*.ser
+*.properties

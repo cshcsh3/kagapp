@@ -1,18 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ShopActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:translationZ="6dp">
+
+        <Spinner
+            android:id="@+id/languageSpinnerTranslate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="true"
+            android:translationZ="5dp"></Spinner>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/arrow_translate" />
+
+        <Spinner
+            android:id="@+id/languageSpinnerResult"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="true"
+            android:paddingLeft="10dp"
+            android:translationZ="5dp"></Spinner>
+
+    </LinearLayout>
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="244dp"
-        android:text="@string/shop"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</android.support.constraint.ConstraintLayout>
+        android:id="@+id/text_view"
+        android:layout_width="314dp"
+        android:layout_height="116dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="22dp"
+        android:text="Align Text"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/shopItem"
+        android:layout_width="314dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:src="@drawable/arrow_point_up"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/description_view"
+        android:layout_width="314dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="380dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Calbee potato ships \n yoyoyoyo"
+        android:visibility="gone"/>
+
+</RelativeLayout>
+
