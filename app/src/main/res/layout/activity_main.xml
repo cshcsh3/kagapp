@@ -57,5 +57,5 @@
             app:layout_constraintTop_toBottomOf="@+id/translateButton"
             app:srcCompat="@drawable/shop_menu" />
     </LinearLayout>
-    
+
 </android.support.constraint.ConstraintLayout>
