@@ -7,9 +7,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:gravity="center"
-        android:background="@android:color/white"
+        android:layout_height="100dp"
         android:translationZ="6dp">
 
         <Spinner
@@ -17,20 +15,23 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:drawSelectorOnTop="true"
-            android:translationZ="5dp"></Spinner>
+            android:entries="@array/spinnerItems"
+            android:translationZ="5dp">
+        </Spinner>
 
         <ImageView
-            android:layout_width="30dp"
+            android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:src="@drawable/arrow_translate" />
+            android:src="@drawable/arrow_translate"/>
 
         <Spinner
             android:id="@+id/languageSpinnerResult"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:drawSelectorOnTop="true"
-            android:paddingLeft="10dp"
-            android:translationZ="5dp"></Spinner>
+            android:entries="@array/spinnerItems"
+            android:translationZ="5dp">
+        </Spinner>
 
     </LinearLayout>
 
@@ -42,13 +43,10 @@
 
     <TextView
         android:id="@+id/text_view"
-        android:layout_width="314dp"
-        android:layout_height="116dp"
-        android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="22dp"
-        android:text="Align Text"
-        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="No Text"
         android:textColor="@android:color/white"
         android:textSize="20sp" />
 
