@@ -144,7 +144,7 @@ public class TranslateActivity extends AppCompatActivity {
                                         }
                                     } else if (spinner2.getSelectedItem().toString().equals("中文")) {
                                         if (stringBuilder.toString().contains("ゆのくに")){
-                                            textView.setText("你好");
+                                            textView.setText("汤之国");
                                         }
                                     }
                                 } else if (spinner1.getSelectedItem().toString().equals("English")) {
@@ -154,16 +154,16 @@ public class TranslateActivity extends AppCompatActivity {
                                         }
                                     } else if (spinner2.getSelectedItem().toString().equals("中文")) {
                                         if (stringBuilder.toString().contains("Yunokuni")){
-                                            textView.setText("你好");
+                                            textView.setText("汤之国");
                                         }
                                     }
                                 } else if (spinner1.getSelectedItem().toString().equals("中文")) {
                                     if (spinner2.getSelectedItem().toString().equals("日本語")) {
-                                        if (stringBuilder.toString().contains("你好")){
+                                        if (stringBuilder.toString().contains("汤之国")){
                                             textView.setText("ゆのくに");
                                         }
                                     } else if (spinner2.getSelectedItem().toString().equals("English")) {
-                                        if (stringBuilder.toString().contains("你好")){
+                                        if (stringBuilder.toString().contains("汤之国")){
                                             textView.setText("Yunokuni");
                                         }
                                     }

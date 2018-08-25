@@ -30,13 +30,7 @@ public class ShopActivity extends AppCompatActivity {
     TextView textView;
     CameraSource cameraSource;
     final int RequestCameraPermissionID = 1001;
-    ImageView shopItem;
     TextView description_view;
-
-    String[] values = { "日本語", "English", "中文" };
-
-    Spinner spinner1;
-    Spinner spinner2;
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -64,14 +58,7 @@ public class ShopActivity extends AppCompatActivity {
 
         cameraView = findViewById(R.id.surface_view);
         textView = findViewById(R.id.text_view);
-        spinner1 = findViewById(R.id.languageSpinnerTranslate);
-        spinner2 = findViewById(R.id.languageSpinnerResult);
-        shopItem = findViewById(R.id.shopItem);
         description_view = findViewById(R.id.description_view);
-
-        ArrayAdapter<String> spinnerItems = new ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, values);
-        spinner1.setAdapter(spinnerItems);
-        spinner2.setAdapter(spinnerItems);
 
         final TextRecognizer textRecognizer = new TextRecognizer.Builder(getApplicationContext()).build();
         if (!textRecognizer.isOperational()) {
@@ -139,49 +126,13 @@ public class ShopActivity extends AppCompatActivity {
                                 Log.d("XIAOJEM", "Stringbuilder: " + stringBuilder.toString());
                                 //textView.setText(stringBuilder.toString());
 
-                                if (spinner1.getSelectedItem().toString().equals("日本語")) {
-                                    if (spinner2.getSelectedItem().toString().equals("English")) {
-                                        if (stringBuilder.toString().contains("ゆのくに")){
-                                            textView.setText("Yunokuni");
-                                        }
-                                    } else if (spinner2.getSelectedItem().toString().equals("中文")) {
-                                        if (stringBuilder.toString().contains("ゆのくに")){
-                                            textView.setText("你好");
-                                        }
-                                    }
-
-                                    //------Souvenir Shop Here
-                                } else if (spinner1.getSelectedItem().toString().equals("English")) {
-                                    if (spinner2.getSelectedItem().toString().equals("日本語")) {
-                                        if (stringBuilder.toString().contains("Calbee")){
-                                            //textView.setText("ゆのくに");
-
-                                            shopItem.setVisibility(View.VISIBLE);
-                                            textView.setText("Calbee Roasted Potato Chips");
-                                            description_view.setVisibility(View.VISIBLE);
-                                            description_view.setText("Contains Chips\nyadadyaya");
-
-
-                                        } else {
-                                            shopItem.setVisibility(View.GONE);
-                                            description_view.setVisibility(View.GONE);
-
-                                        }
-                                    } else if (spinner2.getSelectedItem().toString().equals("中文")) {
-                                        if (stringBuilder.toString().contains("Yunokuni")){
-                                            textView.setText("你好");
-                                        }
-                                    }
-                                } else if (spinner1.getSelectedItem().toString().equals("中文")) {
-                                    if (spinner2.getSelectedItem().toString().equals("日本語")) {
-                                        if (stringBuilder.toString().contains("你好")){
-                                            textView.setText("ゆのくに");
-                                        }
-                                    } else if (spinner2.getSelectedItem().toString().equals("English")) {
-                                        if (stringBuilder.toString().contains("你好")){
-                                            textView.setText("Yunokuni");
-                                        }
-                                    }
+                                if (stringBuilder.toString().contains("Calbee")){
+                                    textView.setText("Calbee Roasted Potato Chips");
+                                    description_view.setVisibility(View.VISIBLE);
+                                    description_view.setText("Salted roasted chips \n" +
+                                            "Has salt and butter");
+                                } else {
+                                    description_view.setVisibility(View.GONE);
                                 }
 
                                 /*
