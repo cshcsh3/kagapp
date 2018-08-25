@@ -14,9 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="688dd95c-f8fe-4530-b5bf-0e54ba961212" name="Default" comment="">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
@@ -35,11 +32,6 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_navigate2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_navigate2.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-=======
-=======
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
-=======
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterPath="" />
@@ -109,7 +101,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/ShopActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/ShopActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -132,20 +123,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-=======
-=======
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
-=======
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
       <file leaf-file-name="Navigate2Activity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/Navigate2Activity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,34 +138,19 @@
                 <element signature="e#5082#5083#0" expanded="true" />
                 <element signature="e#5141#5142#0" expanded="true" />
               </folding>
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
               <folding />
-=======
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-=======
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
-=======
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
             <state relative-caret-position="950">
               <caret line="42" column="74" lean-forward="false" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
               <folding />
@@ -198,24 +166,15 @@
               <folding>
                 <element signature="imports" expanded="false" />
               </folding>
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       <file leaf-file-name="ShopActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/ShopActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-=======
-=======
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
-=======
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
       <file leaf-file-name="search.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/search.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -267,13 +226,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="385">
               <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
-=======
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
-=======
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
               <folding />
             </state>
           </provider>
@@ -282,9 +234,6 @@
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       <file leaf-file-name="Navigate2Activity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/Navigate2Activity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -294,48 +243,21 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#5160#5161#0" expanded="true" />
                 <element signature="e#5219#5220#0" expanded="true" />
-=======
       <file leaf-file-name="ShopActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/ShopActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="455">
               <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
               <folding>
-=======
-      <file leaf-file-name="ShopActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/ShopActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
-              <folding>
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
-=======
-      <file leaf-file-name="ShopActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/ShopActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
-              <folding>
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
                 <element signature="e#4266#4267#0" expanded="true" />
                 <element signature="e#4325#4326#0" expanded="true" />
                 <element signature="e#4816#9476#0" expanded="true" />
                 <element signature="e#9475#9476#0" expanded="true" />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
-=======
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
-=======
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       <file leaf-file-name="TranslateActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/TranslateActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -345,20 +267,9 @@
                 <element signature="e#4779#8695#0" expanded="true" />
                 <element signature="e#8694#8695#0" expanded="true" />
               </folding>
-=======
       <file leaf-file-name="activity_shop.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml">
           <provider selected="true" editor-type-id="text-editor">
-=======
-      <file leaf-file-name="activity_shop.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml">
-          <provider selected="true" editor-type-id="text-editor">
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
-=======
-      <file leaf-file-name="activity_shop.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml">
-          <provider selected="true" editor-type-id="text-editor">
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
             <state relative-caret-position="417">
               <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding />
@@ -375,7 +286,6 @@
             <state relative-caret-position="925">
               <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
               <folding />
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
             </state>
           </provider>
           <provider editor-type-id="android-designer2">
@@ -2445,12 +2355,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/Navigate2Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/TranslateActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_translate.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/NavigateActivity.java" />
 =======
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
@@ -2464,6 +2377,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/ShopActivity.java" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
+=======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
@@ -2495,6 +2411,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2549,6 +2466,8 @@
         </subPane>
       </pane>
 =======
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
       <pane id="ProjectPane" />
@@ -2650,6 +2569,9 @@
     <property name="sync.plugin.last.upgrade.timestamp" value="1535186439927" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
+=======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
@@ -2698,6 +2620,7 @@
       <envs />
       <patterns />
       <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
@@ -2930,6 +2853,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -2957,6 +2881,8 @@
       <patterns />
       <method />
     </configuration>
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
@@ -3029,7 +2955,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+=======
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
@@ -3048,6 +2978,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4361949" sideWeight="0.5214823" order="1" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3097,10 +3028,23 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22717509" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
+=======
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33136413" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.49785176" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33178654" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329428" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1786543" sideWeight="0.5150376" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22717509" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3151,6 +3095,18 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26257753" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -3164,6 +3120,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -3172,6 +3129,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
@@ -3398,6 +3357,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_navigate.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3414,6 +3374,8 @@
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3423,8 +3385,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     </entry>
 =======
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
@@ -3436,6 +3401,9 @@
     <entry file="file://$PROJECT_DIR$/app/build.gradle" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
+=======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
@@ -3496,9 +3464,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="105">
           <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
 =======
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
@@ -3522,6 +3493,9 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_translate.xml">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
+=======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
@@ -3542,10 +3516,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
 =======
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
@@ -3564,10 +3541,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="60">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
 =======
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
@@ -3622,8 +3602,20 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_navigate2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/Navigate2Activity.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3634,6 +3626,8 @@
             <element signature="e#5160#5161#0" expanded="true" />
             <element signature="e#5219#5220#0" expanded="true" />
 =======
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
@@ -3651,6 +3645,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_navigate2.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -3663,12 +3658,17 @@
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="42" column="74" lean-forward="false" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
+=======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
@@ -3676,6 +3676,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml">
@@ -3708,6 +3709,8 @@
         <state relative-caret-position="345">
           <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
 =======
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
@@ -3760,6 +3763,7 @@
       </provider>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
@@ -3800,6 +3804,29 @@
     </entry>
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/searchlist.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
+          <folding />
+        </state>
+      </provider>
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_shop.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -3847,6 +3874,7 @@
       </provider>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/sit/great/kagapp/TranslateActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -3858,6 +3886,8 @@
           </folding>
         </state>
       </provider>
+=======
+>>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======
 >>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
 =======

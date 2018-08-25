@@ -86,16 +86,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
-<<<<<<< HEAD
-=======
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/build-info" />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
-=======
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
-=======
->>>>>>> c16b3df8d51c734831e5ba45e61e914e9b52717b
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
