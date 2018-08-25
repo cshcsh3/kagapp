@@ -10,6 +10,8 @@ import android.util.Log;
 import android.util.SparseArray;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.google.android.gms.vision.CameraSource;
@@ -23,8 +25,12 @@ import org.json.JSONObject;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class TranslateActivity extends AppCompatActivity {
 
@@ -32,6 +38,11 @@ public class TranslateActivity extends AppCompatActivity {
     TextView textView;
     CameraSource cameraSource;
     final int RequestCameraPermissionID = 1001;
+
+    String[] values = { "日本語", "English", "中文" };
+
+    Spinner spinner1;
+    Spinner spinner2;
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -57,8 +68,14 @@ public class TranslateActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_translate);
 
-        cameraView = (SurfaceView) findViewById(R.id.surface_view);
-        textView = (TextView) findViewById(R.id.text_view);
+        cameraView = findViewById(R.id.surface_view);
+        textView = findViewById(R.id.text_view);
+        spinner1 = findViewById(R.id.languageSpinnerTranslate);
+        spinner2 = findViewById(R.id.languageSpinnerResult);
+
+        ArrayAdapter<String> spinnerItems = new ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, values);
+        spinner1.setAdapter(spinnerItems);
+        spinner2.setAdapter(spinnerItems);
 
         TextRecognizer textRecognizer = new TextRecognizer.Builder(getApplicationContext()).build();
         if (!textRecognizer.isOperational()) {
@@ -71,6 +88,7 @@ public class TranslateActivity extends AppCompatActivity {
                     .setRequestedFps(2.0f)
                     .setAutoFocusEnabled(true)
                     .build();
+
             cameraView.getHolder().addCallback(new SurfaceHolder.Callback() {
                 @Override
                 public void surfaceCreated(SurfaceHolder surfaceHolder) {
@@ -124,14 +142,37 @@ public class TranslateActivity extends AppCompatActivity {
                                 }
                                 //textView.setText(stringBuilder.toString());
 
-                                if (stringBuilder.toString().contains("Yunokuni")){
-                                    textView.setText("ゆのくに");
+                                if (spinner1.getSelectedItem().toString().equals("日本語")) {
+                                    if (spinner2.getSelectedItem().toString().equals("English")) {
+                                        if (stringBuilder.toString().contains("ゆのくに")){
+                                            textView.setText("Yunokuni");
+                                        }
+                                    } else if (spinner2.getSelectedItem().toString().equals("中文")) {
+                                        if (stringBuilder.toString().contains("ゆのくに")){
+                                            textView.setText("你好");
+                                        }
+                                    }
+                                } else if (spinner1.getSelectedItem().toString().equals("English")) {
+                                    if (spinner2.getSelectedItem().toString().equals("日本語")) {
+                                        if (stringBuilder.toString().contains("Yunokuni")){
+                                            textView.setText("ゆのくに");
+                                        }
+                                    } else if (spinner2.getSelectedItem().toString().equals("中文")) {
+                                        if (stringBuilder.toString().contains("Yunokuni")){
+                                            textView.setText("你好");
+                                        }
+                                    }
+                                } else if (spinner1.getSelectedItem().toString().equals("中文")) {
+                                    if (spinner2.getSelectedItem().toString().equals("日本語")) {
+                                        if (stringBuilder.toString().contains("你好")){
+                                            textView.setText("ゆのくに");
+                                        }
+                                    } else if (spinner2.getSelectedItem().toString().equals("English")) {
+                                        if (stringBuilder.toString().contains("你好")){
+                                            textView.setText("Yunokuni");
+                                        }
+                                    }
                                 }
-
-
-
-
-
 
                                 /*
                                 //------ Call method to translate stringbuilder here
