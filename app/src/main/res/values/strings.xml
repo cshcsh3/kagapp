@@ -6,10 +6,4 @@
 
     <string name="translate">Translate</string>
     <string name="shop">Shop</string>
-
-    <string-array name="spinnerItems">
-        <item>日本語</item>
-        <item>English</item>
-        <item>中文</item>
-    </string-array>
 </resources>
