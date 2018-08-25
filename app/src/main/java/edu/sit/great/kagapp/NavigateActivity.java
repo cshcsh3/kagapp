@@ -40,9 +40,9 @@ public class NavigateActivity extends AppCompatActivity {
             R.drawable.onsen,
             R.drawable.bed,
             R.drawable.pingpong,
-            R.drawable.pingpong,
-            R.drawable.arcade,
-            R.drawable.cafe,
+            R.drawable.mahjong,
+            R.drawable.ghost,
+            R.drawable.coffee_cup,
             R.drawable.shopping,
     };
 
