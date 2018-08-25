@@ -29,22 +29,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="11dp"
                 android:layout_marginStart="16dp"
                 android:padding="2dp"
                 android:text="Medium Text"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#33CC33"
+                android:textColor="#1B2572"
+                android:textSize="25dp"
+                android:textStyle="bold"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="60dp" />
-
-            <TextView
-                android:id="@+id/textView1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="18dp"
-                android:layout_marginTop="1dp"
-                android:text="TextView" />
 
         </LinearLayout>
     </LinearLayout>
