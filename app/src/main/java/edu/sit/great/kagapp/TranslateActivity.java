@@ -17,7 +17,14 @@ import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 public class TranslateActivity extends AppCompatActivity {
 
@@ -39,7 +46,6 @@ public class TranslateActivity extends AppCompatActivity {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-
                 }
             }
             break;
@@ -116,12 +122,91 @@ public class TranslateActivity extends AppCompatActivity {
                                     stringBuilder.append(item.getValue());
                                     stringBuilder.append("\n");
                                 }
-                                textView.setText(stringBuilder.toString());
+                                //textView.setText(stringBuilder.toString());
+
+                                if (stringBuilder.toString().contains("Yunokuni")){
+                                    textView.setText("ゆのくに");
+                                }
+
+
+
+
+
+
+                                /*
+                                //------ Call method to translate stringbuilder here
+                                //https://translation.googleapis.com/language/translate/v2?key={YOUR_API_KEY}
+                                String urlToParse = "https://translation.googleapis.com/language/translate/v2?key={YOUR_API_KEY}";
+
+                                try{
+                                    JSONObject jsonObject = getJSONObjectFromURL(urlToParse);
+                                    //
+                                    // Parse your json here
+                                    //
+                                    Log.d("XIAOJEM", jsonObject.toString());
+                                } catch (IOException e) {
+                                    e.printStackTrace();
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+                                */
                             }
                         });
                     }
                 }
             });
         }
+    }
+
+    //Method for HTTP Post
+    /*
+    public static JSONObject getJSONObjectFromURL(String urlString) throws IOException, JSONException {
+        HttpURLConnection urlConnection = null;
+        URL url = new URL(urlString);
+        urlConnection = (HttpURLConnection) url.openConnection();
+        urlConnection.setRequestMethod("GET");
+        urlConnection.setReadTimeout(10000 milliseconds  );
+        urlConnection.setConnectTimeout(15000 milliseconds  );
+        urlConnection.setDoOutput(true);
+        urlConnection.connect();
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
+        StringBuilder sb = new StringBuilder();
+
+        String line;
+        while ((line = br.readLine()) != null) {
+            sb.append(line + "\n");
+        }
+        br.close();
+
+        String jsonString = sb.toString();
+        System.out.println("JSON: " + jsonString);
+
+        return new JSONObject(jsonString);
+    } */
+
+
+    //------Method to Translate
+    public String translateOCR(String QueryLanguage, String ResultLanguage, String StringToTranslate){
+
+        String ResultantString = "";
+
+        //If same language return original string
+        if(QueryLanguage.equals(ResultLanguage)){
+            return StringToTranslate;
+
+        //English to Japanese Translations
+        } else if (QueryLanguage.equals("English") && ResultLanguage.equals("日本語")){
+
+
+        //Japanese to English Translations
+        } else if (QueryLanguage.equals("日本語") && ResultLanguage.equals("English")){
+
+
+        //Japanese to Chinese Translations
+        } else if (QueryLanguage.equals("日本語") && ResultLanguage.equals("中文")){
+
+        }
+        return ResultantString;
     }
 }
