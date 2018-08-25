@@ -81,6 +81,7 @@ public class NavigateActivity extends AppCompatActivity {
                 Intent intent = new Intent(view.getContext(), Navigate2Activity.class);
                 intent.putExtra("location", (String) listView.getItemAtPosition(i));
                 startActivity(intent);
+                finish();
             }
         });
 

@@ -13,73 +13,74 @@
         android:visibility="visible" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_width="361dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="316dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="@+id/navigate_surface"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:id="@+id/rotatingArrow"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:src="@drawable/navigation"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="280dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="10 Metres Left"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="319dp" />
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/rotatingArrow"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:src="@drawable/arrow_point_up"
-                android:layout_marginTop="100dp"
-                android:layout_gravity="center"/>
-
-            <TextView
-                android:layout_width="200dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:textAlignment="center"
-                android:layout_marginTop="30dp"
-                android:text="10 Metres Left to"/>
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/headingToTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
                 android:text="Heading To"
-                android:layout_marginRight="20dp"/>
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="400dp" />
 
             <TextView
                 android:id="@+id/locationTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
                 android:text="Room 501"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"/>
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteY="400dp" />
 
             <ImageButton
                 android:id="@+id/endNavigationButton"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/arrow_point_up"
-                android:scaleType="fitXY"/>
-
-            <TextView
-                android:id="@+id/dumpingTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:text="Bearing __"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"/>
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#0000"
+                android:paddingLeft="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/end"
+                tools:layout_editor_absoluteY="369dp" />
         </LinearLayout>
-
     </LinearLayout>
-
 
 
 </android.support.constraint.ConstraintLayout>

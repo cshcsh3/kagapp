@@ -1,6 +1,7 @@
 package edu.sit.great.kagapp;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -40,7 +41,7 @@ public class Navigate2Activity extends AppCompatActivity {
     private TextView locationTextView;
     private ImageButton endNavigationButton;
     private TextView headingToTextView;
-    private TextView dumpingTextView;
+    //private TextView dumpingTextView;
 
     private float currentAzimuth;
     SurfaceView cameraView;
@@ -50,6 +51,8 @@ public class Navigate2Activity extends AppCompatActivity {
     //Integer Array Containing the bearing/azimuth of the hardcoded route
     Float[] routeArray = { 90f, 5.3f, 180.0f, 33.3f, 5f };
     public Integer currentRouteStep = 0;
+
+    private boolean endOfJourney = false;
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -78,7 +81,7 @@ public class Navigate2Activity extends AppCompatActivity {
         setupCompass();
 
         endNavigationButton = findViewById(R.id.endNavigationButton);
-        dumpingTextView = findViewById(R.id.dumpingTextView);
+        //dumpingTextView = findViewById(R.id.dumpingTextView);
         headingToTextView = findViewById(R.id.headingToTextView);
         cameraView = (SurfaceView) findViewById(R.id.navigate_surface);
 
@@ -200,7 +203,7 @@ public class Navigate2Activity extends AppCompatActivity {
         an.setRepeatCount(0);
         an.setFillAfter(true);
 
-        dumpingTextView.setText("Bearing: " + azimuth);
+        //dumpingTextView.setText("Bearing: " + azimuth);
 
         arrowView.startAnimation(an);
     }
@@ -213,6 +216,15 @@ public class Navigate2Activity extends AppCompatActivity {
         if(currentRouteStep == (routeArray.length - 1)){
             //Trigger End of Journey Here
             headingToTextView.setText("End of Journey");
+
+            // Do check first for initial message display
+            if (endOfJourney) {
+                Intent returnBack = new Intent(this, NavigateActivity.class);
+                startActivity(returnBack);
+                finish();
+            }
+
+            endOfJourney = true;
         } else {
             currentRouteStep++;
             Log.d("XIAOJEM", "Current step: " + currentRouteStep);
