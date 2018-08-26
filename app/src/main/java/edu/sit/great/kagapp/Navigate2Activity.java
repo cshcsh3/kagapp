@@ -54,7 +54,7 @@ public class Navigate2Activity extends AppCompatActivity {
     final int RequestCameraPermissionID = 1001;
 
     //Integer Array Containing the bearing/azimuth of the hardcoded route
-    Float[] routeArray = { 90f, 5.3f, 180.0f, 33.3f, 5f };
+    Float[] routeArray = { -240f };
     public Integer currentRouteStep = 0;
 
     private boolean endOfJourney = false;
@@ -104,7 +104,7 @@ public class Navigate2Activity extends AppCompatActivity {
 
         Thread distanceSimulator = new Thread() {
 
-            private double current = 40.0;
+            private double current = 25.0;
 
             @Override
             public void run() {

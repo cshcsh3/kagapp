@@ -4,15 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_height="409dp"
+        android:layout_marginTop="96dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -22,7 +25,7 @@
             android:layout_height="130dp"
             android:layout_above="@+id/translateButton"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="5dp"
             android:background="@android:color/transparent"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +38,7 @@
             android:layout_width="331dp"
             android:layout_height="130dp"
             android:layout_centerInParent="true"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="5dp"
             android:background="@android:color/transparent"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +52,7 @@
             android:layout_height="130dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="41dp"
+            android:layout_marginBottom="10dp"
             android:background="@android:color/transparent"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
@@ -57,5 +60,17 @@
             app:layout_constraintTop_toBottomOf="@+id/translateButton"
             app:srcCompat="@drawable/shop_menu" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="387dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="-3dp" />
 
 </android.support.constraint.ConstraintLayout>
