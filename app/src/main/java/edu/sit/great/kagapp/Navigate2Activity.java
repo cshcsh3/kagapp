@@ -6,6 +6,7 @@ import android.content.pm.PackageManager;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorManager;
+import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -29,7 +30,10 @@ import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
 
 import java.io.IOException;
+import java.net.URL;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Random;
 
 
 public class Navigate2Activity extends AppCompatActivity {
@@ -41,6 +45,7 @@ public class Navigate2Activity extends AppCompatActivity {
     private TextView locationTextView;
     private ImageButton endNavigationButton;
     private TextView headingToTextView;
+    private TextView metresTextView;
     //private TextView dumpingTextView;
 
     private float currentAzimuth;
@@ -84,19 +89,52 @@ public class Navigate2Activity extends AppCompatActivity {
         //dumpingTextView = findViewById(R.id.dumpingTextView);
         headingToTextView = findViewById(R.id.headingToTextView);
         cameraView = (SurfaceView) findViewById(R.id.navigate_surface);
-
+        metresTextView = findViewById(R.id.metresTextView);
 
         locationTextView = findViewById(R.id.locationTextView);
         String location = getIntent().getStringExtra("location");
         locationTextView.setText(location);
 
         endNavigationButton = findViewById(R.id.endNavigationButton);
-
         endNavigationButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 nextNavigateStep();
             }
         });
+
+        Thread distanceSimulator = new Thread() {
+
+            private double current = 10.0;
+
+            @Override
+            public void run() {
+                try {
+                    while (current > 0.1) {
+                        Thread.sleep(1000);
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                Random r = new Random();
+                                double randomValue = 0.3 + (0.5 - 0.3) * r.nextDouble();
+
+                                current -= randomValue;
+
+                                double rounded = Math.round(current * 100.0) / 100.0;
+
+                                if (current > 0) {
+                                    metresTextView.setText(rounded + " Metres Left");
+                                } else {
+                                    metresTextView.setText("Destination Arrived");
+                                }
+                            }
+                        });
+                    }
+                } catch (InterruptedException e) {
+                }
+            }
+        };
+
+        distanceSimulator.start();
 
         TextRecognizer textRecognizer = new TextRecognizer.Builder(getApplicationContext()).build();
         if (!textRecognizer.isOperational()) {
@@ -230,6 +268,36 @@ public class Navigate2Activity extends AppCompatActivity {
             Log.d("XIAOJEM", "Current step: " + currentRouteStep);
 
             //adjustArrow(routeArray[currentRouteStep - 1]);
+        }
+    }
+
+    private class DistanceSimulator extends AsyncTask<Void, Void, String>{
+        private double current = 10.0;
+
+        @Override
+        protected String doInBackground(Void... voids) {
+            while (current > 0.1) {
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                Random r = new Random();
+                double randomValue = 0.6 + (0.8 - 0.6) * r.nextDouble();
+
+                current -= randomValue;
+
+                double rounded = Math.round(current * 100.0) / 100.0;
+                metresTextView.setText(rounded + " Metres Left");
+            }
+
+            return "Done";
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            super.onPostExecute(result);
         }
     }
 }

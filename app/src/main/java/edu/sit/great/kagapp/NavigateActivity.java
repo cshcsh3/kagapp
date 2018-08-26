@@ -79,7 +79,7 @@ public class NavigateActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(view.getContext(), Navigate2Activity.class);
-                intent.putExtra("location", (String) listView.getItemAtPosition(i));
+                intent.putExtra("location", adapter.getItemName(i));
                 startActivity(intent);
                 finish();
             }

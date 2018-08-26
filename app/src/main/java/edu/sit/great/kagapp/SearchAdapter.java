@@ -41,6 +41,10 @@ public class SearchAdapter extends BaseAdapter implements Filterable{
         return searches.get(arg0);
     }
 
+    public String getItemName(int arg0) {
+        return searches.get(arg0).getName();
+    }
+
     public long getItemId(int position) {
         // TODO Auto-generated method stub
         return searches.indexOf(getItem(position));
@@ -55,8 +59,8 @@ public class SearchAdapter extends BaseAdapter implements Filterable{
             convertView=inflater.inflate(R.layout.searchlist, null);
         }
 
-        TextView nameTxt=(TextView) convertView.findViewById(R.id.item);
-        ImageView img=(ImageView) convertView.findViewById(R.id.icon);
+        TextView nameTxt= convertView.findViewById(R.id.item);
+        ImageView img = convertView.findViewById(R.id.icon);
 
         nameTxt.setText(searches.get(position).getName());
         img.setImageResource(searches.get(position).getImg());

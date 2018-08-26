@@ -30,6 +30,7 @@
             tools:layout_editor_absoluteY="280dp" />
 
         <TextView
+            android:id="@+id/metresTextView"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_gravity="center"

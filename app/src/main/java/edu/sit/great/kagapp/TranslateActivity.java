@@ -35,7 +35,7 @@ public class TranslateActivity extends AppCompatActivity {
     CameraSource cameraSource;
     final int RequestCameraPermissionID = 1001;
 
-    String[] values = { "日本語", "English", "中文" };
+    String[] values = { "English", "日本語", "中文" };
 
     Spinner spinner1;
     Spinner spinner2;
@@ -137,34 +137,32 @@ public class TranslateActivity extends AppCompatActivity {
                                 }
                                 //textView.setText(stringBuilder.toString());
 
-                                if (spinner1.getSelectedItem().toString().equals("日本語")) {
-                                    if (spinner2.getSelectedItem().toString().equals("English")) {
-                                        if (stringBuilder.toString().contains("ゆのくに")){
-                                            textView.setText("Yunokuni");
-                                        }
-                                    } else if (spinner2.getSelectedItem().toString().equals("中文")) {
-                                        if (stringBuilder.toString().contains("ゆのくに")){
-                                            textView.setText("汤之国");
-                                        }
-                                    }
-                                } else if (spinner1.getSelectedItem().toString().equals("English")) {
+                                if (spinner1.getSelectedItem().toString().equals("English")) {
                                     if (spinner2.getSelectedItem().toString().equals("日本語")) {
                                         if (stringBuilder.toString().contains("Yunokuni")){
                                             textView.setText("ゆのくに");
                                         }
+
+                                        if(stringBuilder.toString().contains("Room Service")) {
+                                            textView.setText("ルームサービス");
+                                        }
+
                                     } else if (spinner2.getSelectedItem().toString().equals("中文")) {
                                         if (stringBuilder.toString().contains("Yunokuni")){
                                             textView.setText("汤之国");
                                         }
-                                    }
-                                } else if (spinner1.getSelectedItem().toString().equals("中文")) {
-                                    if (spinner2.getSelectedItem().toString().equals("日本語")) {
-                                        if (stringBuilder.toString().contains("汤之国")){
-                                            textView.setText("ゆのくに");
+
+                                        if(stringBuilder.toString().contains("Room Service")) {
+                                            textView.setText("客房服务");
                                         }
-                                    } else if (spinner2.getSelectedItem().toString().equals("English")) {
-                                        if (stringBuilder.toString().contains("汤之国")){
+                                    } else if (spinner2.getSelectedItem().toString().equals("English"))
+                                    {
+                                        if (stringBuilder.toString().contains("Yunokuni")){
                                             textView.setText("Yunokuni");
+                                        }
+
+                                        if(stringBuilder.toString().contains("Room Service")) {
+                                            textView.setText("Room Service");
                                         }
                                     }
                                 }
