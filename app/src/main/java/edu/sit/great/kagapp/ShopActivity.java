@@ -132,6 +132,7 @@ public class ShopActivity extends AppCompatActivity {
                                     description_view.setText("Salted roasted chips \n" +
                                             "Has salt and butter");
                                 } else {
+                                    textView.setText("");
                                     description_view.setVisibility(View.GONE);
                                 }
 

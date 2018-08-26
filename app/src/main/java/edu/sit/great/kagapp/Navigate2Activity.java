@@ -46,7 +46,7 @@ public class Navigate2Activity extends AppCompatActivity {
     private ImageButton endNavigationButton;
     private TextView headingToTextView;
     private TextView metresTextView;
-    //private TextView dumpingTextView;
+    private TextView dumpingTextView;
 
     private float currentAzimuth;
     SurfaceView cameraView;
@@ -86,7 +86,7 @@ public class Navigate2Activity extends AppCompatActivity {
         setupCompass();
 
         endNavigationButton = findViewById(R.id.endNavigationButton);
-        //dumpingTextView = findViewById(R.id.dumpingTextView);
+        dumpingTextView = findViewById(R.id.dumpingTextView);
         headingToTextView = findViewById(R.id.headingToTextView);
         cameraView = (SurfaceView) findViewById(R.id.navigate_surface);
         metresTextView = findViewById(R.id.metresTextView);
@@ -104,7 +104,7 @@ public class Navigate2Activity extends AppCompatActivity {
 
         Thread distanceSimulator = new Thread() {
 
-            private double current = 10.0;
+            private double current = 40.0;
 
             @Override
             public void run() {
@@ -241,7 +241,7 @@ public class Navigate2Activity extends AppCompatActivity {
         an.setRepeatCount(0);
         an.setFillAfter(true);
 
-        //dumpingTextView.setText("Bearing: " + azimuth);
+        dumpingTextView.setText("Bearing: " + azimuth);
 
         arrowView.startAnimation(an);
     }
@@ -268,36 +268,6 @@ public class Navigate2Activity extends AppCompatActivity {
             Log.d("XIAOJEM", "Current step: " + currentRouteStep);
 
             //adjustArrow(routeArray[currentRouteStep - 1]);
-        }
-    }
-
-    private class DistanceSimulator extends AsyncTask<Void, Void, String>{
-        private double current = 10.0;
-
-        @Override
-        protected String doInBackground(Void... voids) {
-            while (current > 0.1) {
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-
-                Random r = new Random();
-                double randomValue = 0.6 + (0.8 - 0.6) * r.nextDouble();
-
-                current -= randomValue;
-
-                double rounded = Math.round(current * 100.0) / 100.0;
-                metresTextView.setText(rounded + " Metres Left");
-            }
-
-            return "Done";
-        }
-
-        @Override
-        protected void onPostExecute(String result) {
-            super.onPostExecute(result);
         }
     }
 }
